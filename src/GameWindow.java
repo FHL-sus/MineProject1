@@ -316,14 +316,14 @@ public class GameWindow extends JFrame implements ActionListener {
         new RestartFrame(this);
     }
 
-    public static void main(String[] args) {
-        new GameWindow(5,6,6,3);
-        if(isFirst()) {
-            CountDown cd = new CountDown();
-            cd.start();
-            setFirst(false);
-        }
-    }
+//    public static void main(String[] args) {
+//        new GameWindow(5,6,6,3);
+//        if(isFirst()) {
+//            CountDown cd = new CountDown();
+//            cd.start();
+//            setFirst(false);
+//        }
+//    }
 
     public static ImageIcon getWei() {
         return wei;

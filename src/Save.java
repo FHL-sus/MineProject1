@@ -95,11 +95,16 @@ public class Save {
                 board.append(this.amount[x - 1][j]).append(" ");
                 reBoard.append(this.amount[x - 1][j]).append("\r\n");
             }
+            reBoard.append("=========================================================\n");
             for (int j = 0; j < y; j++) {
-                for (int k = 0; k < x; k++) {
+                for (int k = 0; k < x -1 ; k++) {
                     board.append(this.states[k][j]).append(" ");
+                    reBoard.append(stateJudge(this.states[k][j])).append(" ");
                 }
+                board.append(this.states[x - 1][j]).append(" ");
+                reBoard.append(stateJudge(this.states[x - 1][j])).append("\r\n");
             }
+            reBoard.append("=========================================================\n");
             pure.append("1 ").append(weiNewScore).append(" ").append(weiNewMis).append(" ").append(heNewScore).append(" ").append(heNewMis).append(" -1");
             saveWriter.write(String.valueOf(board));
             writer.write(reBoard + "\n");
@@ -218,6 +223,13 @@ public class Save {
         scoreboard.n = n;
         scoreboard.conRefresh();
         return scoreboard;
+    }
+
+    public String stateJudge(State state){
+        if (state == State.open || state == State.flag){
+            return "o";
+        }
+        else return "x";
     }
 
     public ArrayList<Integer> getPureScore() {

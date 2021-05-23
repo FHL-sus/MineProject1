@@ -1,1 +1,0 @@
-5 5 2 贺铭鑫 2 1 魏薛涛 9 2 3589 src/pic/魏薛涛.png 贺铭鑫 11 3 3589 src/pic/贺铭鑫.png 3 0 0 1 9 9 0 0 2 3 3 1 1 2 9 1 2 9 3 2 1 9 3 9 1 0 open open open covered covered open open open covered covered open open open open covered open open open open covered flag open flag open covered 
