@@ -1,0 +1,1 @@
+5 6 5 魏薛涛 5 0 魏薛涛 10 0 3593 src/pic/魏薛涛.png 贺铭鑫 9 0 3596 src/pic/贺铭鑫.png 3 1 9 2 9 2 1 2 2 2 1 2 9 9 1 0 0 1 1 2 2 1 0 1 1 1 9 1 0 1 9 covered open covered covered covered covered covered open open open open covered covered open open open open covered covered open open open open covered covered covered open open open covered 
